@@ -1,0 +1,45 @@
+th {
+    color: purple;
+    font-size: 16pt;
+    font-family: 'Cambria';
+    background-color: plum;
+}
+
+#pag_inicial:hover {color: darkred;}
+
+#esqueleto:hover {color: chocolate;}
+
+h1 {
+    font-size: 25pt;
+    color:rgb(159, 27, 185);
+    font-family:'Gill Sans';
+}
+
+div a {
+    font-size: 14pt;
+    background-color:rgb(226, 211, 252);
+    color: black;
+    font-family:'Arial Narrow Bold'
+}
+
+div a:visited {
+    color: blueviolet;
+}
+
+div a:hover {
+    color: black;
+}
+
+.link_pag {color: black;}
+.link_pag:visited {color: fuchsia;}
+.link_pag:hover {color: palevioletred}
+
+.link_esq {color: black;}
+.link_esq:visited {color: fuchsia;}
+.link_esq:hover {color: palevioletred}
+
+body {background-color: rgb(247, 231, 255);}
+
+table {background-color: rgb(255, 255, 255);}
+td {font-size: 13pt;}
+

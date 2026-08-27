@@ -1,0 +1,32 @@
+body {background-color: rgb(228, 221, 247);}
+
+div a {
+    font-size: 14pt;
+    background-color:rgb(250, 230, 245);
+    color: black;
+    font-family:'Arial Narrow Bold'
+}
+
+div a:visited {
+    color: rgb(205, 43, 226);
+}
+
+div a:hover {
+    color: black;
+}
+
+p {font-size: 13.5pt;}
+
+li {font-size: 13.5pt;}
+
+h1 {
+    font-size: 25pt;
+    color:rgb(122, 27, 185);
+    font-family:'Gill Sans';
+}
+
+strong {color: rgb(86, 28, 194);}
+
+h2 {font-size: 20pt;
+    color:rgb(80, 33, 134)    
+}
