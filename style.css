@@ -30,3 +30,17 @@ strong {color: rgb(86, 28, 194);}
 h2 {font-size: 20pt;
     color:rgb(80, 33, 134)    
 }
+
+b {
+    color: darkmagenta;
+    font-size: 14pt;
+    font-style: oblique;
+}
+
+.link {color: rgb(89, 45, 248);}
+.link:visited {color: rgb(111, 0, 255);}
+.link:hover {color: rgb(127, 77, 241)}
+
+div li:hover{color: darkorchid;}
+
+

@@ -5,9 +5,9 @@ th {
     background-color: plum;
 }
 
-#pag_inicial:hover {color: darkred;}
+#pag_inicial:hover {color: palevioletred}
 
-#esqueleto:hover {color: chocolate;}
+#esqueleto:hover {color: palevioletred}
 
 h1 {
     font-size: 25pt;
