@@ -1,85 +1,91 @@
-body {background-color: lightgray;}
+body {
+    background-color: lightgrey;
+}
 
-h1 {
-    position:relative;
-    border: 5px, solid, rgb(0, 45, 168);
+div topo {
     background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px, solid, blue;
     color: darkgreen;
-    margin: 10px;
-    padding: 100px;
+    padding: 10px;
+}
+
+div nav {
+    background-color: lightskyblue;
+    color: darkred;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+h2 {
     text-align: center;
     font-size: 30pt;
 }
 
-#C {
-    position: absolute;
-    top: 50px;
-    left: 20px
-}
-
-#java {
-    position: absolute;
-    top: 50px;
-    right: 20px;
-}
-
-div p { 
-    background-color: lightskyblue;
+div texto1 {
     text-align: center;
-    border: 0px, no border;
-    padding: 5px;
-    margin: 0px;
-}
-
-h2 {text-align: center;
-font-size: 20pt;}
-
-.int {
     color: indigo;
     font-size: 20pt;
-    font-family: sans-serif;
-
 }
 
-#img1 {
-    position: relative;
-    left: 500px;
-
+div livros {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
-#img2 {
-    position: absolute;
-    left: 990px;
+div iframes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-#img3 {
-    position: absolute;
-    right: 500px;
-}
-
-#yt {
-    position: relative;
-    left: 700px;
-}
-
-#maps {
-    position: absolute;
-    right: 700px;
-}
-
-table { 
-    border: 5px, dotted, red;
-    position: relative;
-    left: 1000px;
-}
-
-th {color: red;}
-
-div p {
-
+table {
+    border: 6px, dashed, red;
     text-align: center;
-    background-color: yellow;
-    border: 0px, no border
-
+    height: 150px;
+    width: 500px;
 }
 
+th {
+    color: red;
+}
+
+div contatos {
+    display: flex;
+    justify-content: center;
+}
+
+div sites {
+    background-color: yellow;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-inline: auto;
+    flex-direction: column;
+    width: 600px;
+}
+
+
+a {
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+div fim {
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15pt;
+    padding: 10px;
+    margin-top: 20px;
+    /* não apareceu a fonte Comic Sans */
+}
