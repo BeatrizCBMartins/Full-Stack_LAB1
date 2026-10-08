@@ -9,6 +9,8 @@ th {
 
 #esqueleto:hover {color: palevioletred}
 
+#cop:hover {color: palevioletred}
+
 h1 {
     font-size: 25pt;
     color:rgb(159, 27, 185);
@@ -37,6 +39,10 @@ div a:hover {
 .link_esq {color: black;}
 .link_esq:visited {color: fuchsia;}
 .link_esq:hover {color: palevioletred}
+
+.link_cop {color: black;}
+.link_cop:visited {color: fuchsia;}
+.link_cop:hover {color: palevioletred}
 
 body {background-color: rgb(247, 231, 255);}
 
