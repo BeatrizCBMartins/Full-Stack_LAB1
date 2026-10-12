@@ -11,6 +11,8 @@ th {
 
 #cop:hover {color: palevioletred}
 
+#adv:hover {color: palevioletred}
+
 h1 {
     font-size: 25pt;
     color:rgb(159, 27, 185);
@@ -43,6 +45,10 @@ div a:hover {
 .link_cop {color: black;}
 .link_cop:visited {color: fuchsia;}
 .link_cop:hover {color: palevioletred}
+
+.link_adv {color: black;}
+.link_adv:visited {color: fuchsia;}
+.link_adv:hover {color: palevioletred}
 
 body {background-color: rgb(247, 231, 255);}
 

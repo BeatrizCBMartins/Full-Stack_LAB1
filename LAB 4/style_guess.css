@@ -7,3 +7,18 @@ h1 {
     color:#8b008b;
 }
 
+div {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14pt;
+    color: black;
+    font-family:'Arial Narrow Bold'
+}
+
+div a:visited {
+    color: rgb(205, 43, 226);
+}
+
+div a:hover {
+    color: rgb(140, 69, 255);
+}

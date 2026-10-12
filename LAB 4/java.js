@@ -29,4 +29,8 @@ function tentativa() {
         } 
     }
 
+function atualizar() {
+     window.location.reload();
+}
+
 
