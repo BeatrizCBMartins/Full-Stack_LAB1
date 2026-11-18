@@ -17,13 +17,14 @@ h1 {
     font-size: 25pt;
     color:rgb(159, 27, 185);
     font-family:'Gill Sans';
+    justify-self: center;
 }
 
 div a {
     font-size: 14pt;
     background-color:rgb(226, 211, 252);
     color: black;
-    font-family:'Arial Narrow Bold'
+    font-family:'Arial Narrow Bold';
 }
 
 div a:visited {
@@ -52,6 +53,12 @@ div a:hover {
 
 body {background-color: rgb(247, 231, 255);}
 
-table {background-color: rgb(255, 255, 255);}
+table {background-color: rgb(255, 255, 255);
+justify-self: center;}
+
 td {font-size: 13pt;}
+
+div {
+    justify-self: center;
+}
 
