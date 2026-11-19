@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    justify-content: center;
+};
+
+body {
+    background-color: #e3caff;
+}
+
+#post {
+    background-color: #e8cdfa;
+    border: 2px solid #58036d;
+    margin: 20px;
+    padding: 5px;
+}
